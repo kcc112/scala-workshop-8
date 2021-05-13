@@ -2,7 +2,7 @@ package TypeClasses
 
 import org.scalatest.FlatSpec
 
-class ExistentialTypesSpec extends FlatSpec {
+class TypeClassesSpec extends FlatSpec {
 
   it should "print student id" in {
     val studentId = TypeClassesExample.StudentId(25)
